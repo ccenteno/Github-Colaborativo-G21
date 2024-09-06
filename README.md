@@ -4,11 +4,12 @@
 git init
 git status
 git add index.html
+git add .
+git add -A
 git commit -m "mi mensaje"
 git log
 
 git branch -M main
-
 ```
 
 CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21
