@@ -12,6 +12,21 @@ git log
 git branch -M main
 ```
 
+```
+#…o crear un nuevo repositorio en la línea de comandos
+echo "# Github-Colaborativo-G21" >> README.md 
+git init 
+git add README.md 
+git commit -m "primer commit" 
+git branch -M main 
+git remote add origin https://github.com/ccenteno/Github-Colaborativo-G21.git
+ git push -u origin main
+#…o enviar un repositorio existente desde la línea de comandos
+git remoto agregar origen https://github.com/ccenteno/Github-Colaborativo-G21.git
+ git branch -M main 
+git push -u origin main
+```
+
 CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21
 $ git init
 Initialized empty Git repository in C:/Github-Colaborativo-G21/.git/
