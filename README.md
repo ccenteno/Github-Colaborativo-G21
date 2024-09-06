@@ -25,6 +25,19 @@ git remote add origin https://github.com/ccenteno/Github-Colaborativo-G21.git
 git remoto agregar origen https://github.com/ccenteno/Github-Colaborativo-G21.git
  git branch -M main 
 git push -u origin main
+
+git push origin main
+git push
+```
+```
+git swith -c Cesar
+git branch
+
+git switch main
+git checkout main
+
+git checkout Cesar
+git switch Cesar
 ```
 
 CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21
