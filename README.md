@@ -1,6 +1,6 @@
 # Github Colaborativo G21
 
-
+```
 git init
 git status
 git add index.html
@@ -9,7 +9,7 @@ git log
 
 git branch -M main
 
-'''
+```
 
 CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21
 $ git init
@@ -167,13 +167,6 @@ On branch master
 nothing to commit, working tree clean
 
 CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21 (master)
-$ git lot
-git: 'lot' is not a git command. See 'git --help'.
-
-The most similar command is
-        log
-
-CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21 (master)
 $ git log
 commit 0e284739681ad92492a8a65ff5b51540525189b0 (HEAD -> master)
 Author: César A. Centeno <ccentenor@gmail.com>
@@ -188,6 +181,26 @@ Date:   Thu Sep 5 19:30:01 2024 -0500
     Agregando archivo index.html con la estructura html base
 
 CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21 (master)
+$ git add README.md
+
+CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   README.md
+
+
+CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21 (master)
+$ git commit -m "Agregando archivo README.md"
+[master d2633d2] Agregando archivo README.md
+ 1 file changed, 194 insertions(+)
+ create mode 100644 README.md
+
+CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21 (master)
+$ git branch -M main
+
+CCenteno@DESKTOP-R47N9N7 MINGW64 /c/Github-Colaborativo-G21 (main)
 $
 
 
